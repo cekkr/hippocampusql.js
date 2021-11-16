@@ -1,0 +1,23 @@
+{
+  "name": "hippocampusql",
+  "version": "0.0.1",
+  "description": "SQL hippocampus",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cekkr/hippocampusql.js.git"
+  },
+  "keywords": [
+    "hippocampus",
+    "mysql"
+  ],
+  "author": "Riccardo Cecchini <cekkr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cekkr/hippocampusql.js/issues"
+  },
+  "homepage": "https://github.com/cekkr/hippocampusql.js#readme"
+}
