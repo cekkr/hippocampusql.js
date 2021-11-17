@@ -27,4 +27,22 @@ class HippocampuSQL{
     }
 }
 
+class Table {
+    constructor(db){
+        this.db = db;
+    }
+}
+
+class Row {
+    constructor(parent){
+        this.parent = parent;
+    }
+}
+
+class Field {
+    constructor(parent){
+        this.parent = parent;
+    }
+}
+
 exports.HippocampuSQL = HippocampuSQL;
