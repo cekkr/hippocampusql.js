@@ -25,17 +25,28 @@ class HippocampuSQL{
 
         this.conn.connect();
     }
+
+    getTable(name){
+        var table = new Table(this, name);
+        return table;
+    }
 }
 
 class Table {
-    constructor(db){
+    constructor(db, name){
         this.db = db;
+        this.name = name;
+    }
+
+    newRow(){
+        var row = new Row(this);
+        return row;
     }
 }
 
 class Row {
-    constructor(parent){
-        this.parent = parent;
+    constructor(table){
+        this.table = table;
     }
 }
 
