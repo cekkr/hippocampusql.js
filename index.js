@@ -50,10 +50,17 @@ class Row {
     }
 }
 
-class Field {
-    constructor(parent){
-        this.parent = parent;
+class Column {
+    constructor(table){
+        this.table = table;
     }
 }
+
+class Field {
+    constructor(row){
+        this.row = row;
+    }
+}
+
 
 exports.HippocampuSQL = HippocampuSQL;
